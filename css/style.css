@@ -6,6 +6,7 @@
 
 html {
     font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -14,7 +15,7 @@ body {
     height: 500px;
     box-shadow: 1px 0px 8px 1px rgba(0, 0, 0, 0.62);
     border-radius: 15px;
-    margin: 100px auto;
+    margin: 50px auto;
 }
 
 header {
@@ -28,6 +29,10 @@ header {
     width: 90%;
     height: 300px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .main-container__image {
@@ -43,6 +48,23 @@ header {
     height: 100px;
     border-radius: 50%;
     top: -50px;
-    left: calc(50% - 30px);
+    left: calc(50% - 50px);
 }
+
+.main-container__title {
+    padding: 0 30px 30px 30px;
+}
+
+.main-container__title h1 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    color: rgba(32, 32, 32, 0.856);
+}
+
+.main-container__title p {
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+    color: rgb(32, 32, 32);
+}
+
 
