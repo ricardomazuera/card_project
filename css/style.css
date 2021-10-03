@@ -15,7 +15,7 @@ body {
     height: 500px;
     box-shadow: 1px 0px 8px 1px rgba(0, 0, 0, 0.62);
     border-radius: 15px;
-    margin: 50px auto;
+    margin: 25px auto;
 }
 
 header {
@@ -27,7 +27,7 @@ header {
 
 .main-container {
     width: 90%;
-    height: 300px;
+    height: 250px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -71,11 +71,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 20px;
-}
-
-.main-container__contact p {
-    font-size: 1.2rem;
-    height: 25px;
+    font-size: 1.1rem;
 }
 
 .main-container__contact .local {
@@ -98,6 +94,25 @@ header {
     background-repeat: no-repeat;
 }
 
-.main-container__followers {
-    display: inline-block;
+.aside-container__followers {
+    display: flex;
+    width: 100%;
+    height: 60px;    grid-template-columns: 1fr 1fr;
+    border-top: 1px solid rgba(128, 128, 128, 0.295);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
+
+.aside-container__followers .followers {
+    width: 50%;
+    height: 60px;
+    border-right: 1px solid rgba(128, 128, 128, 0.295);
+    padding-top: 13px;
+}
+
+.aside-container__followers .following {
+    width: 50%;
+}
+
+footer {}
